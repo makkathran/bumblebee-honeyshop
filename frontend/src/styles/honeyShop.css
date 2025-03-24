@@ -1,0 +1,42 @@
+.honey-shop-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 2rem;
+  }
+  
+  .honey-shop-inner {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+  }
+  
+  .honey-shop-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem;
+  }
+  
+  .honey-section {
+    flex: 1 1 300px;
+    min-width: 260px;
+    min-height: 360px;
+    background-color: rgb(218, 171, 109);
+    border-radius: 20px;
+  }
+  .honey-section ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;     
+    padding-bottom: 1rem;           
+    border-bottom: 1px solid black; 
+  }
+  
